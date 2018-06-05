@@ -22,5 +22,5 @@ function currentLine(katzDeliLine, person) {
     return `The line is currently empty.`;
   }
   
-  else {return `The line is currently: ${array}.`
+  else {return `The line is currently: array.join(", ")}`.`
 }
