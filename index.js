@@ -18,7 +18,8 @@ var array = []
   if (katzDeliLine.length === 0) {
     return `The line is currently empty.`;
   }
- else (let i = 0; i < katzDeliLine.length, i++)
+ for (let i = 0; i < katzDeliLine.length, i++) {
  
  return `The line is currently: ${katzDeliLine.length}. ${person}.`;
+}
 }
