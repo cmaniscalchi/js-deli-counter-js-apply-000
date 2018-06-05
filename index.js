@@ -16,7 +16,7 @@ function currentLine(katzDeliLine, person) {
   var array = []
 
   for (let i = 0; i < katzDeliLine.length, i++) {
-  array.push()
+  array.push(i)
   
   
   if (katzDeliLine.length === 0) {
