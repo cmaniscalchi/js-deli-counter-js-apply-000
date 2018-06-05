@@ -23,6 +23,6 @@ function currentLine(katzDeliLine) {
   }
   
   else {
-    return `The line is currently: ${array.join(", ")}.`;
+    return `The line is currently: ${array.join(", ")}`;
   }
 }
