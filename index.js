@@ -12,7 +12,7 @@ function nowServing(katzDeliLine) {
  else return `Currently serving ${katzDeliLine.shift()}.`;
 }
 
-function currentLine(katzDeliLine) {
+function currentLine(line) {
   var array = [];
 
   for (let i = 0; i < katzDeliLine.length; i++) {
